@@ -21,6 +21,8 @@ new Chart(ctx, {
       {
         label: "# of Votes",
         data: [250, 200, 320, 250, 150, 190, 320, 230, 260, 180, 200, 300, 200],
+        backgroundColor: "rgba(255, 206, 86, 0.6)",
+        borderColor: "rgba(255, 206, 86, 1)",
         borderWidth: 1,
       },
     ],
@@ -29,7 +31,7 @@ new Chart(ctx, {
     scales: {
       x: {
         max: 400,
-      },  
+      },
       y: {
         max: 400,
       },
