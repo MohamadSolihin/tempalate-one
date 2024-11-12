@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav::after {
+  content: "";
+  position: absolute;
+  top: 4.6rem;
+  left: 2.7rem;
+  width: 77.7rem;
+  border-bottom: 1px solid #ebebeb;
+}
+@media (max-width: 768px) {
+  nav::after {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .chart {
+    display: none;
+  }
+}
